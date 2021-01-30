@@ -594,8 +594,12 @@ body {
   background-color: #585858;
   color: #c8c8c8;
 }
+.sidebar .sidebar-nav {
+  line-height: 1.5em;
+  padding-bottom: 40px;
+}
 .sidebar li {
-  margin: 6px 15px 6px 0;
+  margin: 6px 0.5em 6px 0;
 }
 .sidebar ul li a {
   color: #c8c8c8;
@@ -634,8 +638,11 @@ body {
   border-bottom: solid 1px;
 }
 .markdown-section h2 {
-  font-size: 1.75rem;
-  margin: 0.1rem 0 0.3rem;
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0.5rem;
+  border-left-style: solid;
+  border-left-width: 1em;
+  padding-left: 10px;
 }
 .markdown-section h3 {
   font-size: 1.5rem;
@@ -712,6 +719,25 @@ body {
   padding: 0 1.4rem;
   position: relative;
   word-wrap: normal;
+}
+.markdown-section th {
+  border: 1px solid #ddd;
+  background-color: #a9a9a9;
+  font-weight: bold;
+  padding: 6px 13px;
+}
+.markdown-section td {
+  border: 1px solid #ddd;
+  padding: 6px 13px;
+}
+.markdown-section tr {
+  border-top: 1px solid #ccc;
+}
+.markdown-section tr:nth-child(odd) {
+  background-color: #fffafa;
+}
+.markdown-section tr:nth-child(even) {
+  background-color: #f5f5f5;
 }
 /* code highlight */
 .token.comment,
